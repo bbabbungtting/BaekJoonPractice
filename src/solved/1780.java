@@ -1,4 +1,4 @@
-package org.example;
+//백준 1780번 '종이의 개수' / 실버 2 / 50분
 
 import java.util.*;
 
