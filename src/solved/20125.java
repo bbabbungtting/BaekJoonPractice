@@ -1,4 +1,4 @@
-package org.example;
+//백준 20125번 '쿠키의 신체 측정' / 실버 4 / 60분
 
 import java.util.*;
 
