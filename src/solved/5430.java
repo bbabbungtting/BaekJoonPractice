@@ -1,5 +1,4 @@
-package org.example;
-
+//백준 5430번 'AC' / 골드 5 / 150분
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
