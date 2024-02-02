@@ -1,4 +1,4 @@
-package org.example;
+//백준 1874번 '스택 수열' / 실버 2 / 60분 / stack
 
 import java.io.BufferedReader;
 import java.io.IOException;
