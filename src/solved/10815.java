@@ -1,4 +1,4 @@
-package org.example;
+//백준 10815번 '숫자 카드' / 실버 5 / 40분
 
 import java.util.*;
 import java.io.BufferedReader;
@@ -16,15 +16,18 @@ public class Main {
         int N = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
         for(int i=0;i<N;i++){
-            String key = st.nextToken();
-            map.put(key,map.getOrDefault(key,0)+1);
+            map.put(st.nextToken(),0);
         }
 
         int M = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < M; i++) {
-            sb.append(map.getOrDefault(st.nextToken(),0)).append(' ');
+            if(map.get(st.nextToken())!=null){
+                sb.append("1 ");
+            } else{
+                sb.append("0 ");
+            }
         }
-        System.out.println(sb);
+        System.out.println(sb.toString());
     }
 }

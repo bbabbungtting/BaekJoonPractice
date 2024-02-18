@@ -1,4 +1,4 @@
-package org.example;
+//백준 10816번 '숫자 카드2' / 실버 4 / 40분
 
 import java.util.*;
 import java.io.BufferedReader;
